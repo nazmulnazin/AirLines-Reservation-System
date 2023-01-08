@@ -1,0 +1,8 @@
+Table addflight:
+CREATE TABLE addflight(flightcode int, flightname varchar(20),source varchar(30),departtime time,destination varchar(30),arrtime time,date date,fare varchar(20), PRIMARY key(flightcode));
+
+Table passenger:
+CREATE TABLE passenger(id int, Passport varchar(30), Nationality varchar(30), Name varchar(20), Address varchar(30), Age int, Gender varchar(20), Contact int, Photo varbinary(200), PRIMARY KEY(id));
+
+Table ticket:
+CREATE TABLE ticket(travellers varchar(20),class varchar(20),price int);
